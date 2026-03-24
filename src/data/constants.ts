@@ -1,11 +1,11 @@
 export const towns = [
   { name: 'Brandon', slug: 'brandon', businesses: 0 },
-  { name: 'Flowood', slug: 'flowood', businesses: 0 },
   { name: 'Pearl', slug: 'pearl', businesses: 0 },
+  { name: 'Flowood', slug: 'flowood', businesses: 0 },
   { name: 'Richland', slug: 'richland', businesses: 0 },
   { name: 'Pelahatchie', slug: 'pelahatchie', businesses: 0 },
+  { name: 'Puckett', slug: 'puckett', businesses: 0 },
 ];
-
 export const categories = [
   { name: 'Restaurants & Dining', slug: 'restaurants-dining', icon: '🍽️', count: 0 },
   { name: 'Shopping & Retail', slug: 'shopping-retail', icon: '🛍️', count: 0 },
@@ -26,7 +26,6 @@ export const categories = [
   { name: 'Accommodations', slug: 'accommodations', icon: '🏨', count: 0 },
   { name: 'Appliances & Rentals', slug: 'appliances-rentals', icon: '🔌', count: 0 },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Listings', href: '/listings/' },
