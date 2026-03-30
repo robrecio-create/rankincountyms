@@ -3,7 +3,7 @@ export const prerender = false;
 import type { APIRoute } from 'astro';
 import { createClient } from '@supabase/supabase-js';
 
-const COUNTY = 'rankin';
+const COUNTY = 'rankin-ms';
 
 export const POST: APIRoute = async ({ request }) => {
   try {
